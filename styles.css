@@ -1,21 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 body {
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
 }
 
-.toolbar {
+#toolbar {
   display: flex;
   justify-content: flex-end;
   margin: 16px;
 }
 
-.deskTop,
+.desk,
 .bigmage,
 .form-name-message p {
   display: none;
 }
 
-.Name {
+.name {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-weight: 400;
@@ -27,7 +35,7 @@ body {
   color: #1a2236;
 }
 
-.headLine {
+.headline {
   width: 90%;
   height: 126px;
   font-family: 'Poppins', sans-serif;
@@ -40,7 +48,7 @@ body {
   margin-bottom: 40px;
 }
 
-.textButton {
+.textBoton {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -48,7 +56,7 @@ body {
   text-align: center;
 }
 
-.blackButton {
+.blackBoton {
   font-family: 'Poppins', sans-serif;
   margin: 16px 16px;
   width: 90%;
@@ -58,7 +66,7 @@ body {
   margin-bottom: 32px;
 }
 
-.imageBox {
+.imagebox {
   display: block;
   height: 160px;
   background-image: url(images/image_geometry_2.png);
@@ -66,7 +74,7 @@ body {
 
 /* projects section */
 
-.photo {
+.gallery {
   display: grid;
   flex-wrap: wrap;
   width: 100vw;
@@ -91,9 +99,9 @@ h2 {
   width: 100vw;
 }
 
-.P-Data {
+.pData {
   width: 100%;
-  height: 140px;
+  height: 156px;
   background: #1a2236;
   padding-left: 16px;
   bottom: 0;
@@ -107,7 +115,7 @@ h3 {
   color: #fff;
 }
 
-.pUl {
+.projectUl {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -119,7 +127,7 @@ h3 {
   width: 314px;
 }
 
-.pLi {
+.projectLi {
   font-size: 10.33px;
   background-color: #98dede;
   float: left;
@@ -130,7 +138,7 @@ h3 {
   padding-bottom: 1.5px;
 }
 
-.move {
+.see {
   background: none;
   border: #fff solid 0.5px;
   margin-top: 20px;
@@ -141,7 +149,7 @@ h3 {
 
 /* about section */
 
-.About {
+.about {
   display: flex;
   flex-direction: column;
 }
@@ -159,7 +167,7 @@ h3 {
   padding-top: 0;
 }
 
-.mBox {
+.boxL {
   padding: 16px;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -171,7 +179,7 @@ h3 {
   /* border: #1a2236 dotted 1px; */
 }
 
-.box {
+.Box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,24 +191,24 @@ h3 {
   margin: 9px auto;
 }
 
-.languages {
+.lan {
   background: #1c528c;
-  background-image: url(images/hast.png);
+  background-image: url("./images/hast.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
-.framworks {
+.fra {
   background-color: #e2505c;
-  background-image: url(images/cuadrado.png);
+  background-image: url("images/cuadrado.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 33%;
 }
 
-.skills {
+.ski {
   background-color: #febf52;
-  background-image: url(images/foco.png);
+  background-image: url("images/foco.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 35%;
@@ -212,13 +220,13 @@ h4 {
   color: #fff;
 }
 
-.iBox {
+.inBox {
   color: #fff;
   list-style-position: inside;
   justify-self: center;
 }
 
-.imgAbt {
+.image-about {
   display: none;
 }
 
@@ -228,7 +236,7 @@ button {
 }
 
 button:hover {
-  background: #8d10ba;
+  background: #fff;
   border-color: black;
   border-width: 1px;
   color: #1a2236;
@@ -238,9 +246,9 @@ button:active {
   border-width: 4px;
 }
 
-/* Form Section */
+/* formulary section */
 
-.form {
+.formulary {
   display: flex;
   flex-direction: column;
   background: #f9f9fa;
@@ -249,32 +257,32 @@ button:active {
   padding: 1px;
 }
 
-.gap {
+.space {
   height: 106px;
 
   /* border: #1a2236 dotted 1px; */
 }
 
-.fContent {
+.cont-form {
   width: 320px;
 
   /* border: #1a2236 dotted 1px; */
   align-self: center;
 }
 
-.fHeader {
+.form-header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.getStart {
+.getStar {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 50px;
 }
 
-.fName {
+.form-name {
   display: flex;
   flex-direction: column;
   border: 1px solid #dfdfe0;
@@ -291,20 +299,20 @@ button:active {
 
 /* hover effect for input field */
 
-.fName:hover {
+.form-name:hover {
   border: 1px solid black;
 }
 
-.fName-content {
+.form-name-contend {
   border: none;
   background: #fff;
 }
 
-.fName-content:active {
+.form-name-contend:active {
   border: white;
 }
 
-.formText {
+.form-text {
   display: flex;
   flex-direction: column;
   border-radius: 4px;
@@ -323,56 +331,57 @@ button:active {
 
 label {
   border-radius: 4px;
-  border: 1px solid;
+  border: none;
   background: #fff;
 }
 
 /* footer section */
 
-.cfooter {
+.contenfoo {
   background: #1a2236;
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.Resume {
+.resume {
   display: flex;
   align-items: center;
   border: transparent;
   color: #92dcdc;
   flex-grow: 2;
-  margin-bottom: 0;
   font-size: 16px;
+  background: #1a2236;
+  justify-content: center;
+  margin: 21px 16px;
 }
 
 .rsFooter {
   align-self: center;
   background: #1a2236;
+  width: 100vw;
+  max-width: 320px;
+  padding: 20px 30px 30px 30px;
   display: flex;
   justify-content: space-between;
-  margin-left: 22px;
-  margin-right: 20px;
-  padding-top: 30px;
-  margin-bottom: 40px;
 }
 
-.rs {
+.rrss {
   background-color: transparent;
   list-style: none;
   transition-duration: 1.7s;
   cursor: pointer;
 }
 
-.rs:hover {
+.rrss:hover {
   zoom: 1.15;
 }
 
 @media only screen and (min-width: 768px) {
   /* Header change nav */
 
-  .toolbar {
+  #toolbar {
     display: none;
   }
 
@@ -380,25 +389,25 @@ label {
     background: #fff;
   }
 
-  .imageBox,
-  .gap {
+  .imagebox,
+  .space {
     display: none;
   }
 
-  .deskTop {
+  .desk {
     display: block;
     border-bottom: 1px solid #dddfe6;
     line-height: 4;
   }
 
-  .Menu ul {
+  .menu ul {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 30px;
     list-style: none;
   }
 
-  .Menu a {
+  .menu a {
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     font-weight: 400;
@@ -409,7 +418,7 @@ label {
 
   /* hello section */
 
-  .Hello {
+  .hello {
     display: grid;
     grid: 1rem;
     grid-template-columns: 2fr 2fr;
@@ -418,14 +427,14 @@ label {
     max-width: 1280px;
   }
 
-  .headLine {
+  .headline {
     font-size: 1vw;
     line-height: 1.5;
     height: fit-content;
     letter-spacing: -0.01em;
   }
 
-  .helloText {
+  .hello-text {
     display: flex;
     flex-direction: column;
     padding-left: 8em;
@@ -436,51 +445,51 @@ label {
     justify-content: center;
   }
 
-  .Name {
-    font-size: calc(10vw - 2vw);
+  .name {
+    font-size: calc(10vw - 3vw);
   }
 
-  .bigImage {
-    background-image: url(images/image-big.png);
+  .bigimage {
+    background-image: url("./images/image-big.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
-  .blackButton {
+  .blackBoton {
     width: 60%;
   }
 
-  .textButton {
+  .textBoton {
     font-size: 100%;
   }
 
-  .move {
+  .see {
     transition-duration: 0.4s;
     cursor: pointer;
     background: #fff;
     color: #1a2236;
   }
 
-  .move:hover {
+  .see:hover {
     background: #1a2236;
     border-color: #fff;
     border-width: 1px;
     color: #fff;
   }
 
-  .move:active {
+  .see:active {
     border-width: 2px;
   }
 
   /* project section descktop */
 
-  .Projects {
+  .projects {
     display: flex;
     max-width: 1280px;
     margin: 17vh auto;
   }
 
-  .P-Data {
+  .pData {
     position: absolute;
     visibility: hidden;
     zoom: 0.9;
@@ -489,11 +498,11 @@ label {
     transition-timing-function: cubic-bezier(0.225, 0.595, 0.88, 0.39); /* custom */
   }
 
-  .card .P-Data h3 {
+  .card .pData h3 {
     font-weight: 700;
   }
 
-  .card2 .P-Data h3 {
+  .card2 .pData h3 {
     font-weight: 700;
     font-size: 25px;
   }
@@ -526,7 +535,7 @@ label {
     align-self: center;
   }
 
-  .Cards {
+  .caja1-1 {
     grid-column: 1;
     grid-row: 1;
     background-image: url(images/image_dots.png);
@@ -535,7 +544,7 @@ label {
     background-size: 25%;
   }
 
-  .pTitle {
+  .project-title {
     display: flex;
     justify-content: end;
     padding: 0;
@@ -557,8 +566,8 @@ label {
     object-position: center;
   }
 
-  .card2 .P-Data,
-  .card6 .P-Data {
+  .card2 .pData,
+  .card6 .pData {
     zoom: 1.5;
   }
 
@@ -644,11 +653,11 @@ label {
     width: 70%;
   }
 
-  .card9 .P-Data {
+  .card9 .pData {
     width: 70%;
   }
 
-  .card:hover .P-Data {
+  .card:hover .pData {
     visibility: visible;
     opacity: 100%;
   }
@@ -665,13 +674,13 @@ label {
     font-size: 5em;
   }
 
-  .abContent {
+  .about-cont {
     margin: 10%;
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .abHead {
+  .about-head {
     display: flex;
     flex-direction: column;
     padding-left: 4em;
@@ -682,7 +691,7 @@ label {
     height: fit-content;
   }
 
-  .mBox {
+  .boxL {
     padding: 0;
     margin: 0;
     display: grid;
@@ -692,9 +701,9 @@ label {
     width: fit-content;
   }
 
-  .imgAbt {
+  .image-about {
     display: block;
-    background-image: url(images/image_dots_with_teal.png);
+    background-image: url("./images/image_dots_with_teal.png");
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -704,7 +713,7 @@ label {
   }
 
   /* form responsive */
-  .form {
+  .formulary {
     background-image:
       url(images/image-geometry_6.png),
       url(images/image-geometry_7.png);
@@ -720,13 +729,13 @@ label {
     margin: 0 auto;
   }
 
-  .getStart {
+  .getStar {
     font-size: 110px;
     width: 100%;
     text-align: center;
   }
 
-  .formHello {
+  .form-hello {
     width: 548px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -735,7 +744,7 @@ label {
     letter-spacing: -0.01em;
   }
 
-  .fContent {
+  .cont-form {
     display: flex;
     flex-direction: column;
     width: 40em;
@@ -758,7 +767,7 @@ label {
     column-gap: 18px;
   }
 
-  .fName {
+  .form-name {
     border: none;
     background: none;
     margin: 2em 0;
@@ -768,7 +777,7 @@ label {
     margin-bottom: 42px;
   }
 
-  .fName-content {
+  .form-name-contend {
     border-radius: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -794,7 +803,7 @@ label {
     background: none;
   }
 
-  .formText {
+  .form-text {
     width: 100%;
     margin: 0;
     min-width: none;
@@ -805,34 +814,48 @@ label {
     color: lightgray;
   }
 
-  .buttonform {
+  .botonform {
     display: flex;
     justify-content: center;
   }
 
-  .fName:hover {
+  .button-form {
+    height: 70px;
+    width: 254px;
+  }
+
+  .form-name:hover {
     border: 0 solid black;
   }
 
-  .fName-content:hover {
+  .form-name-contend:hover {
     border: #1a2236 2px solid;
   }
+}
 
-  .cfooter {
-    background: #1a2236;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
+@media only screen and (min-width: 992px) {
+  .about {
+    zoom: 100%;
   }
 
-  .Resume {
-    display: flex;
+  .contenfoo {
+    height: 123px;
     align-items: center;
-    border: transparent;
-    color: #92dcdc;
-    flex-grow: 2;
-    margin-bottom: 0;
-    font-size: 16px;
+  }
+
+  .card .pData {
+    zoom: 1.4;
+  }
+
+  .card2 .pData {
+    zoom: 2;
+  }
+
+  .card6 .pData {
+    zoom: 1.8;
+  }
+
+  .card9 .pData {
+    zoom: 1;
   }
 }
