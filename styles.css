@@ -51,7 +51,7 @@ body {
 .blackButton {
   font-family: 'Poppins', sans-serif;
   margin: 16px 16px;
-  width: 100%;
+  width: 90%;
   height: 50px;
   background: #1a2236;
   color: #fff;
@@ -447,7 +447,7 @@ label {
   }
 
   .blackButton {
-    width: 64%;
+    width: 60%;
   }
 
   .textButton {
