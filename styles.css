@@ -51,7 +51,7 @@ body {
 .blackButton {
   font-family: 'Poppins', sans-serif;
   margin: 16px 16px;
-  width: 90%;
+  width: 100%;
   height: 50px;
   background: #1a2236;
   color: #fff;
@@ -93,7 +93,7 @@ h2 {
 
 .P-Data {
   width: 100%;
-  height: 156px;
+  height: 140px;
   background: #1a2236;
   padding-left: 16px;
   bottom: 0;
@@ -447,7 +447,7 @@ label {
   }
 
   .blackButton {
-    width: 60%;
+    width: 64%;
   }
 
   .textButton {
@@ -692,7 +692,7 @@ label {
     width: fit-content;
   }
 
-  .image-about {
+  .imgAbt {
     display: block;
     background-image: url(images/image_dots_with_teal.png);
     background-repeat: no-repeat;
