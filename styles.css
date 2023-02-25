@@ -1,3 +1,12 @@
+/* stylelint-disable CssSyntaxError */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 body {
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
@@ -332,9 +341,9 @@ label {
 .cfooter {
   background: #1a2236;
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .Resume {
@@ -350,12 +359,11 @@ label {
 .rsFooter {
   align-self: center;
   background: #1a2236;
+  width: 100vw;
+  max-width: 320px;
+  padding: 20px 30px 30px 30px;
   display: flex;
   justify-content: space-between;
-  margin-left: 22px;
-  margin-right: 20px;
-  padding-top: 30px;
-  margin-bottom: 40px;
 }
 
 .rs {
@@ -692,7 +700,7 @@ label {
     width: fit-content;
   }
 
-  .image-about {
+  .imgAbt {
     display: block;
     background-image: url(images/image_dots_with_teal.png);
     background-repeat: no-repeat;
@@ -834,5 +842,32 @@ label {
     flex-grow: 2;
     margin-bottom: 0;
     font-size: 16px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .About {
+      zoom: 100%;
+    }
+
+    .cfooter {
+      height: 123px;
+      align-items: center;
+    }
+
+    .card .P-Data {
+      zoom: 1.4;
+    }
+
+    .card2 .P-Data {
+      zoom: 2;
+    }
+
+    .card6 .P-Data {
+      zoom: 1.8;
+    }
+
+    .card9 .pData {
+      zoom: 1;
+    }
   }
 }

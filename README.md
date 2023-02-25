@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello-Wolrd ](#-MOBILE-PORTFOLIO-)
+- [📖 Portfolio ](#-DESKTOP-PORTFOLIO-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -71,7 +71,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone https://github.com/Javed-Shahbaz/Portfolio-Mobiles
+Clone https://github.com/Javed-Shahbaz/Desktop
 
 <!--
 Example commands:
