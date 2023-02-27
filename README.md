@@ -21,11 +21,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mobile Portfolio <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 > This is my Poerfolio project from Microverse and its the first step to have our own portfolio.
 
-**Mobile** is simply a HTML & CSS based project that develops our understanding with professional portfolio. This also include many configuration
+**PORTFOLIO** is simply a HTML & CSS based project that develops our understanding with professional portfolio. This also include many configuration
 settings to keep my code clean.
 
 ## 🛠 Built With <a name="built-with"></a>
