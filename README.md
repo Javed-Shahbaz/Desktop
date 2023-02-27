@@ -121,7 +121,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using:https://javed-shahbaz.github.io/Desktop/
 
 <!--
 Example:
