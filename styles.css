@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.toolbar {
+#toolbar {
   display: flex;
   justify-content: flex-end;
   margin: 16px;
@@ -380,7 +380,7 @@ label {
 @media only screen and (min-width: 768px) {
   /* Header change nav */
 
-  .toolbar {
+  #toolbar {
     display: none;
   }
 
@@ -663,7 +663,7 @@ label {
 
   /* about responsive */
 
-  .about {
+  .About {
     max-width: 1280px;
     margin: 0 auto;
     zoom: 70%;
