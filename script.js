@@ -11,7 +11,7 @@ mobContainer.addEventListener('click', () => {
     document.querySelector('.deskTop').style.top = '0px';
     document.querySelector('.deskTop').style.position = 'fixed';
 
-    document.getElementById('toolbar').style.zIndex = '2';
+    document.getElementById('toolbar').style.zIndex = '3';
 
     document.getElementById('t-img').style.background = 'url("images/image_geometry_menu_1.png")';
     document.getElementById('t-img').style.position = 'absolute';
@@ -24,9 +24,10 @@ mobContainer.addEventListener('click', () => {
 
     document.getElementById('b-img').style.background = 'url("images/image_geometry_menu_2.png")';
     document.getElementById('b-img').style.position = 'absolute';
-    document.getElementById('b-img').style.width = '100vw';
-    document.getElementById('b-img').style.height = '220px';
+    document.getElementById('b-img').style.width = '100%';
+    document.getElementById('b-img').style.height = '205px';
     document.getElementById('b-img').style.bottom = '0px';
+    document.getElementById('b-img').style.alignItems = 'left';
     document.getElementById('b-img').style.backgroundSize = '100%';
     document.getElementById('b-img').style.backgroundRepeat = 'no-repeat';
 
@@ -37,19 +38,19 @@ mobContainer.addEventListener('click', () => {
     document.querySelectorAll('.Menu a').forEach((item) => {
       item.style.textDecoration = 'none';
       item.style.color = 'black';
-      item.style.fontWeight = '400px';
+      item.style.fontWeight = '500px';
       item.style.size = '20px';
       item.style.fontFamily = 'Poppins';
-      item.style.justifyself = 'center';
+      item.style.justifyContent = 'center';
     });
 
     document.querySelectorAll('.Menu li').forEach((item) => {
-      item.style.marginBottom = '30px';
+      item.style.marginBottom = '40px';
     });
 
     document.querySelector('.deskTop').style.paddingTop = '30vh';
     document.querySelector('.deskTop').style.justifyContent = 'center';
-    iconImage.src = 'images/union.jpg';
+    iconImage.src = 'images/cancel.jpg';
 
     mobile = true;
   } else {
@@ -60,9 +61,9 @@ mobContainer.addEventListener('click', () => {
 });
 
 const cancel = document.querySelector('.Menu');
-const cancela = cancel.querySelectorAll('a');
+const cana = cancel.querySelectorAll('a');
 
-cancela.forEach((a) => {
+cana.forEach((a) => {
   a.addEventListener('click', () => {
     mobile = false;
     document.querySelector('.deskTop').style.display = 'none';
