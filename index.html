@@ -1,151 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My First Portfolio">
-    <title>Javed's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <title> Javed's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav id="toolbar">
-            <a href="#"><img src="images/ic_menu.svg" alt="Menu"></a> 
+            <img src="images/ic_menu.svg" alt="Menu" id="mobile-nav">
         </nav>
     </header>
 
-     <!-- descktop version -->   
+    <!-- descktop version -->
 
-     <header class="deskTop">
-        <div id="t-img" class="img-mob-container"></div>
-        <div id="b-img" class="img-mob-container"></div>
-        <nav class="Menu">
-          <ul>
-            <li><a href="#">Hello</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+    <header class="deskTop">
+        <div id="timg" class="img-mobile-container"></div>
+        <div id="bimg" class="img-mobile-container"></div>
+        <nav class="mnu">
+            <ul>
+                <li class="menu"><a href="#hello">Hello</a></li>
+                <li class="menu"><a href="#projects">Portfolio</a></li>
+                <li class="menu"><a href="#about">About</a></li>
+                <li class="menu"><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="Hello">
-        <div class="helloText">
-          <header>
-            <h1 class="Name">Javed Shahbaz</h1>
-          </header>
-          <p class="headLine">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-          <br>If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-          <button class="blackButton">
-             Start collaboration
-          </button>
+    <section class="helo" id="helo">
+        <div class="heloText">
+            <header>
+                <h1 class="name">Javed Shahbaz</h1>
+            </header>
+            <p class="headLine">Hello! I am a software developer! I can help you build a product, feature or website.
+                Taka a look of my works.
+                <br>If you like what you see and have a project you need coded, don’t hesitate and contact me.
+            </p>
+            <button class="blackButton" href="#contact">
+                Start collaboration
+            </button>
         </div>
-        <div class="imageBox"></div>
-        <div class="bigImage"></div>
+        <div class="iBox"></div>
+        <div class="bImage"></div>
+    </section>
+    <!-- project section -->
+    <section class="Projects" id="projects">
+        <div class="galery" id="galery">
+            <h2 class="project-title card1">Projects</h2>
+            <div class="Cards card" ></div>
+        </div>
     </section>
 
-<!-- project section -->
-    <section class="Projects">
+    <!-- Modal popup -->
+    <section class="modal-container modal" id="myMOdal">
         
-        <div class="photo">
-<h2 class="pTitle card1">Projects</h2>
-
-            <div class="Cards" card></div> 
-            <article class="card card2">
-                <img src="images/project1.png" alt="project1" aria-label="project1" width="320px">
-                <div class="P-Data">
-                    <h3>Project name goes here</h3>
-                    <ul class="pUl">
-                        <li class="pLi">HTML/CSS</li>
-                        <li class="pLi">Ruby on Rails</li>
-                        <li class="pLi">Java script</li>
-                    </ul>
-                    <button class="move">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            
-            <article class="card card3">
-                <img src="images/project2.png" alt="project2" aria-label="project2" width="100%">
-                <div class="P-Data">
-                    <h3>Project name goes here</h3>
-                    <ul class="pUl">
-                        <li class="pLi">HTML/CSS</li>
-                        <li class="pLi">Ruby on Rails</li>
-                        <li class="pLi">Java script</li>
-                    </ul>
-                    <button class="move">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            <div class="card card4"></div>
-            <article class="card cardx">
-                <img src="images/project6.png" alt="project3" aria-label="project3" width="100%">
-                <div class="P-Data">
-                    <h3>Project name goes here</h3>
-                    <ul class="pUl">
-                        <li class="pLi">HTML/CSS</li>
-                        <li class="pLi">Ruby on Rails</li>
-                        <li class="pLi">Java script</li>
-                    </ul>
-                    <button class="move">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            
-            <article class="card card5">
-                <img src="images/project4.png" alt="project4" aria-label="project4" width="100%">
-                <div class="P-Data">
-                    <h3>Project name goes here</h3>
-                    <ul class="pUl">
-                        <li class="pLi">HTML/CSS</li>
-                        <li class="pLi">Ruby on Rails</li>
-                        <li class="pLi">Java script</li>
-                    </ul>
-                    <button class="move">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            <article class="card card6">
-                <img src="images/project3.png" alt="project5" aria-label="project5" width="100%">
-                <div class="P-Data">
-                    <h3>Project name goes here</h3>
-                    <ul class="pUl">
-                        <li class="pLi">HTML/CSS</li>
-                        <li class="pLi">Ruby on Rails</li>
-                        <li class="pLi">Java script</li>
-                    </ul>
-                    <button class="move">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            <div class="card card7"></div>
-            <div class="card card8"></div>
-            <article class="card card9">
-                <img src="images/project5.png" alt="project6" aria-label="project6" width="100%">
-                <div class="P-Data">
-                    <h3>Project name goes here</h3>
-                    <ul class="pUl">
-                        <li class="pLi">HTML/CSS</li>
-                        <li class="pLi">Ruby on Rails</li>
-                        <li class="pLi">Java script</li>
-                    </ul>
-                    <button class="move">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            </div>
     </section>
 
-<!-- about section -->
+
+    <!-- about section -->
 
     <section class="About">
         <div class="abContent">
@@ -157,7 +76,7 @@
             
         <button class="blackButton">
                 Get my CV &nbsp
-                <img class="get-my-resume-image" src="./images/ic_download.svg" alt="my resume" aria-label="My Resume">
+                <img class="gResume" src="./images/ic_download.svg" alt="my resume" aria-label="My Resume">
         </button>
       </div>
         <div class="mBox">
@@ -246,6 +165,6 @@
 </div>
 </section> 
 </section> 
-<script src="script.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
