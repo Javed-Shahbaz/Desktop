@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
 }
 
-#toolbar {
+#tolbar {
   display: flex;
   justify-content: flex-end;
   margin: 16px;
@@ -21,17 +21,17 @@ body {
   top: 0;
 }
 
-.menu {
+.menus {
   font-size: 21px;
 }
 
 .deskTop,
-.bImage,
+.bigmage,
 .form-name-message p {
   display: none;
 }
 
-.name {
+.nam {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   font-weight: 400;
@@ -74,7 +74,13 @@ body {
   margin-bottom: 32px;
 }
 
-/* projects section */
+.imageBox {
+  display: block;
+  height: 160px;
+  background-image: url(images/image_geometry_2.png);
+}
+
+/* Project Section */
 
 .galery {
   display: grid;
@@ -84,7 +90,7 @@ body {
 
 h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 1.5em;
+  font-size: 3.5em;
   font-weight: 400;
   line-height: 100%;
   padding: 16px;
@@ -101,7 +107,7 @@ h2 {
   width: 100vw;
 }
 
-.P-Data {
+.pData {
   width: 100%;
   height: 156px;
   background: #1a2236;
@@ -117,7 +123,7 @@ h3 {
   color: #fff;
 }
 
-.pUl {
+.projectUl {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -129,7 +135,7 @@ h3 {
   width: 314px;
 }
 
-.pLi {
+.projectLi {
   font-size: 10.33px;
   background-color: #98dede;
   float: left;
@@ -140,7 +146,7 @@ h3 {
   padding-bottom: 1.5px;
 }
 
-.move {
+.see {
   background: none;
   border: #fff solid 0.5px;
   margin-top: 20px;
@@ -276,7 +282,7 @@ h3 {
   padding-top: 0;
 }
 
-.mBox {
+.boxL {
   padding: 16px;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -288,7 +294,7 @@ h3 {
   /* border: #1a2236 dotted 1px; */
 }
 
-.box {
+.Box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -302,14 +308,14 @@ h3 {
 
 .languages {
   background: #1c528c;
-  background-image: url(images/hast.png);
+  background-image: url("./images/hast.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .framworks {
   background-color: #e2505c;
-  background-image: url(images/cuadrado.png);
+  background-image: url("images/cuadrado.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 33%;
@@ -317,7 +323,7 @@ h3 {
 
 .skills {
   background-color: #febf52;
-  background-image: url(images/foco.png);
+  background-image: url("images/foco.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 35%;
@@ -335,7 +341,7 @@ h4 {
   justify-self: center;
 }
 
-.imgAbt {
+.image-about {
   display: none;
 }
 
@@ -345,7 +351,7 @@ button {
 }
 
 button:hover {
-  background: #8d10ba;
+  background: #fff;
   border-color: black;
   border-width: 1px;
   color: #1a2236;
@@ -372,26 +378,26 @@ button:active {
   /* border: #1a2236 dotted 1px; */
 }
 
-.fContent {
+.contForm {
   width: 320px;
 
   /* border: #1a2236 dotted 1px; */
   align-self: center;
 }
 
-.fHeader {
+.formHead {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.getStart {
+.gStart {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 50px;
 }
 
-.fName {
+.formName {
   display: flex;
   flex-direction: column;
   border: 1px solid #dfdfe0;
@@ -406,18 +412,30 @@ button:active {
   color: darkgray;
 }
 
+.alert {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-message {
+  display: none;
+  color: #e2505c;
+  padding-right: 10px;
+  font-weight: bolder;
+}
+
 /* hover effect for input field */
 
-.fName:hover {
+.formName:hover {
   border: 1px solid black;
 }
 
-.fName-content {
+.formName-content {
   border: none;
   background: #fff;
 }
 
-.fName-content:active {
+.formName-content:active {
   border: white;
 }
 
@@ -440,13 +458,13 @@ button:active {
 
 label {
   border-radius: 4px;
-  border: 1px solid;
+  border: none;
   background: #fff;
 }
 
 /* footer section */
 
-.cfooter {
+.contenfoo {
   background: #1a2236;
   display: flex;
   flex-direction: row;
@@ -454,17 +472,19 @@ label {
   justify-content: space-around;
 }
 
-.Resume {
+.resume {
   display: flex;
   align-items: center;
   border: transparent;
   color: #92dcdc;
   flex-grow: 2;
-  margin-bottom: 0;
   font-size: 16px;
+  background: #1a2236;
+  justify-content: center;
+  margin: 21px 16px;
 }
 
-.rsFooter {
+.rsFoot {
   align-self: center;
   background: #1a2236;
   width: 100vw;
@@ -481,7 +501,7 @@ label {
   cursor: pointer;
 }
 
-.rs:hover {
+.rrss:hover {
   zoom: 1.15;
 }
 
@@ -491,7 +511,7 @@ label {
     display: none;
   }
 
-  #toolbar {
+  #tolbar {
     display: none;
   }
 
@@ -499,12 +519,12 @@ label {
     background: #fff;
   }
 
-  .imagebox,
+  .imageBox,
   .space {
     display: none;
   }
 
-  .mnu {
+  .menus {
     font-size: 1rem;
   }
 
@@ -514,14 +534,14 @@ label {
     line-height: 4;
   }
 
-  .mnu ul {
+  .menU ul {
     display: flex;
     justify-content: center;
     gap: 70px;
     list-style: none;
   }
 
-  .mnu a {
+  .menU a {
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     font-weight: 400;
@@ -530,7 +550,7 @@ label {
     color: #1a2236;
   }
 
-  /* Hero Section */
+  /* hello section */
 
   .helo {
     display: grid;
@@ -548,11 +568,11 @@ label {
     letter-spacing: -0.01em;
   }
 
-  .heloText {
+  .helloTxt {
     display: flex;
     flex-direction: column;
     padding-left: 8em;
-    background-image: url(images/project/image_dots.png);
+    background-image: url(images/image_dots.png);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: bottom right;
@@ -563,8 +583,8 @@ label {
     font-size: calc(10vw - 3vw);
   }
 
-  .bImage {
-    background-image: url("images/image-big.png");
+  .bigImage {
+    background-image: url("./images/image-big.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -577,21 +597,21 @@ label {
     font-size: 100%;
   }
 
-  .move {
+  .see {
     transition-duration: 0.4s;
     cursor: pointer;
     background: #fff;
     color: #1a2236;
   }
 
-  .move:hover {
+  .see:hover {
     background: #1a2236;
     border-color: #fff;
     border-width: 1px;
     color: #fff;
   }
 
-  .move:active {
+  .see:active {
     border-width: 2px;
   }
 
@@ -603,7 +623,7 @@ label {
     margin: 15vh auto;
   }
 
-  .P-Data {
+  .pData {
     position: absolute;
     visibility: hidden;
     zoom: 0.9;
@@ -612,11 +632,11 @@ label {
     transition-timing-function: cubic-bezier(0.225, 0.595, 0.88, 0.39); /* custom */
   }
 
-  .card .P-Data h3 {
+  .card .pData h3 {
     font-weight: 700;
   }
 
-  .card2 .P-Data h3 {
+  .card2 .pData h3 {
     font-weight: 700;
     font-size: 25px;
   }
@@ -652,13 +672,13 @@ label {
   .Cards {
     grid-column: 1;
     grid-row: 1;
-    background-image: url(images/project/image_dots.png);
+    background-image: url(images/image_dots.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 25%;
   }
 
-  .project-title {
+  .ptitle {
     display: flex;
     justify-content: end;
     padding: 0;
@@ -680,8 +700,8 @@ label {
     object-position: center;
   }
 
-  .card2 .P-Data,
-  .card4 .P-Data {
+  .card2 .pData,
+  .card4 .pData {
     zoom: 1.5;
   }
 
@@ -700,7 +720,7 @@ label {
   .card-back2 {
     grid-column: 2 / 4;
     grid-row: 2 / 4;
-    background-image: url(images/project/image-geometry_2.png);
+    background-image: url(images/image-geometry_2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -740,7 +760,7 @@ label {
   .card-back3 {
     grid-column: 3 / 5;
     grid-row: 5 / 6;
-    background-image: url(images/project/image-geometry_3.png);
+    background-image: url(images/image-geometry_3.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -750,8 +770,8 @@ label {
     grid-column: 1 / 3;
     grid-row: 6;
     background-image:
-      url(images/project/image-geometry_4.png),
-      url(images/project/image-geometry_5.png);
+      url(images/image-geometry_4.png),
+      url(images/image-geometry_5.png);
     background-repeat: no-repeat;
     background-position: top right, top left;
     zoom: 110%;
@@ -767,18 +787,18 @@ label {
     width: 70%;
   }
 
-  .card6 .P-Data {
+  .card6 .pData {
     width: 70%;
   }
 
-  .card:hover .P-Data {
+  .card:hover .pData {
     visibility: visible;
     opacity: 100%;
   }
 
   /* Modal POPUP */
 
-  .modal-container {
+  .mod-container {
     border: 40px solid #1a2236;
     display: none;
     flex-direction: column;
@@ -890,16 +910,16 @@ label {
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 5em;
   }
 
-  .about-cont {
+  .abcontent {
     margin: 10%;
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .about-head {
+  .abot-head {
     display: flex;
     flex-direction: column;
     padding-left: 4em;
@@ -922,7 +942,7 @@ label {
 
   .image-about {
     display: block;
-    background-image: url("./images/lfs/about/image_dots_with_teal.png");
+    background-image: url("./images/image_dots_with_teal.png");
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -986,7 +1006,7 @@ label {
     column-gap: 18px;
   }
 
-  .form-name {
+  .formName {
     border: none;
     background: none;
     margin: 2em 0;
@@ -996,7 +1016,7 @@ label {
     margin-bottom: 42px;
   }
 
-  .form-name-contend {
+  .formName-content {
     border-radius: 4px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1042,17 +1062,17 @@ label {
     width: 254px;
   }
 
-  .form-name:hover {
+  .formName:hover {
     border: 0 solid black;
   }
 
-  .form-name-contend:hover {
+  .formName-content:hover {
     border: #1a2236 2px solid;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .about {
+  .About {
     zoom: 100%;
   }
 
@@ -1061,19 +1081,19 @@ label {
     align-items: center;
   }
 
-  .card .P-Data {
+  .card .pData {
     zoom: 1.4;
   }
 
-  .card2 .P-Data {
+  .card2 .pData {
     zoom: 2;
   }
 
-  .card4 .P-Data {
+  .card4 .pData {
     zoom: 1.8;
   }
 
-  .card6 .P-Data {
+  .card6 .pData {
     zoom: 1;
   }
 
