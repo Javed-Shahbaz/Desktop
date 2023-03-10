@@ -501,7 +501,7 @@ label {
   cursor: pointer;
 }
 
-.rrss:hover {
+.rs:hover {
   zoom: 1.15;
 }
 
@@ -952,7 +952,7 @@ label {
   }
 
   /* form responsive */
-  .formulary {
+  .form {
     background-image:
       url(images/image-geometry_6.png),
       url(images/image-geometry_7.png);
@@ -968,7 +968,7 @@ label {
     margin: 0 auto;
   }
 
-  .getStar {
+  .gStart {
     font-size: 110px;
     width: 100%;
     text-align: center;
@@ -983,7 +983,7 @@ label {
     letter-spacing: -0.01em;
   }
 
-  .cont-form {
+  .contForm {
     display: flex;
     flex-direction: column;
     width: 40em;
@@ -991,7 +991,7 @@ label {
     zoom: 80%;
   }
 
-  .form-header {
+  .formHead {
     margin-top: 5em;
     display: flex;
     flex-direction: column;
@@ -1076,7 +1076,7 @@ label {
     zoom: 100%;
   }
 
-  .contenfoo {
+  .cfooter {
     height: 123px;
     align-items: center;
   }
@@ -1097,7 +1097,7 @@ label {
     zoom: 1;
   }
 
-  .cont-form {
+  .contForm {
     zoom: 1;
   }
 }
