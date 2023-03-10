@@ -177,11 +177,7 @@ const showModal = (projectInfo) => {
           <img class="iconModal" src="./images/Vector (8).png">
       </button>
   </div>
-  <div class="next-prev-proj">
-      <button class="prev-btn"> &larr; Previous project</button>
-      <button class="prev-btn">Next Project &rarr;</button>
-  </div>
-</div>`;
+  </div>`;
   myMod.innerHTML = modalBody;
 };
 
