@@ -308,7 +308,7 @@ h3 {
 
 .languages {
   background: #1c528c;
-  background-image: url("./images/hast.png");
+  background-image: url("images/hast.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -464,7 +464,7 @@ label {
 
 /* footer section */
 
-.contenfoo {
+.cfooter {
   background: #1a2236;
   display: flex;
   flex-direction: row;
@@ -1097,7 +1097,7 @@ label {
     zoom: 1;
   }
 
-  .contForm {
+  .contorm {
     zoom: 1;
   }
 }
