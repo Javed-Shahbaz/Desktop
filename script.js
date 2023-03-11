@@ -179,10 +179,6 @@ const showModal = (projectInfo) => {
           <img class="iconModal" src="./images/Vector (8).png">
       </button>
   </div>
-  <div class="next-prev-proj">
-      <button class="prev-btn"> &larr; Previous project</button>
-      <button class="prev-btn">Next Project &rarr;</button>
-  </div>
 </div>`;
   myModal.innerHTML = modalBody;
 };
@@ -190,8 +186,8 @@ const showModal = (projectInfo) => {
 const gall = document.querySelector('.galery');
 
 const closeModal = () => {
-  const myMod = document.getElementById('myModal');
-  myMod.style.display = 'none';
+  const myModal = document.getElementById('myMOdal');
+  myModal.style.display = 'none';
 };
 
 projectInfo.forEach((project, index) => {
