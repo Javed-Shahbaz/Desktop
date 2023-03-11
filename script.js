@@ -191,31 +191,31 @@ const closeModal = () => {
 };
 
 projectInfo.forEach((project, index) => {
-  const projectId = project.id;
-  const projectName = project.name;
-  const projectImage = project.image;
-  const projectTech = project.technologies;
-  const projectImgAlt = project.alt;
+  const pId = project.id;
+  const pName = project.name;
+  const pImage = project.image;
+  const pTech = project.technologies;
+  const pImgAlt = project.alt;
 
   const soloArticle = document.createElement('article');
   soloArticle.classList.add('card', `card${index + 2}`);
 
-  const cardContainer = `<img class="imgp" src="${projectImage}" alt="${projectImgAlt}" width="100%">
+  const cardContainer = `<img class="imgp" src="${pImage}" alt="${projectImgAlt}" width="100%">
 <div class="pData">
-    <h3>${projectName}</h3>
-    <ul class="projectUl">
-        <li class="projectLi">${projectTech[0]}</li>
-        <li class="projectLi">${projectTech[1]}</li>
-        <li class="projectLi">${projectTech[2]}</li>
+    <h3>${pName}</h3>
+    <ul class="pUl">
+        <li class="pLi">${pTech[0]}</li>
+        <li class="pLi">${pTech[1]}</li>
+        <li class="pLi">${pTech[2]}</li>
     </ul>
-    <button class="see myBtn" id="btn${projectId}">
+    <button class="move myBtn" id="btn${Id}">
         See this project &nbsp →
     </button>
 </div>
 </article>`;
   soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
   gall.appendChild(soloArticle);
-  const button = document.getElementById(`btn${projectId}`);
+  const button = document.getElementById(`btn${pId}`);
   button.addEventListener('click', () => {
     showModal(project);
     const closemodalX = document.getElementById('closemodalX');
