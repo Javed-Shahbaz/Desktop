@@ -138,6 +138,8 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Javed Shahbaz**
+👤 **Christian Zambrano**
+
 
 -   GitHub: [https://github.com/Javed-Shahbaz)
 -   Twitter: [https://twitter.com/javedshahbaz007)
