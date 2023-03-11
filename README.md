@@ -21,17 +21,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+ **Javed Portfolio** 
+ <a name="about-project"></a>
 
 > This is my Poerfolio project from Microverse and its the first step to have our own portfolio.
 
-**PORTFOLIO** is simply a HTML & CSS based project that develops our understanding with professional portfolio. This also include many configuration
+**PORTFOLIO** is simply a HTML,CSS & JavaScript based project that develops our understanding with professional portfolio. This also include many configuration
 settings to keep my code clean.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
+HTML5  CSS3 JavaScript
 > This projet used for only
 
 <details>
@@ -51,6 +52,14 @@ settings to keep my code clean.
 -   **This project provide modern approach toward the web development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://Javed-Shahbaz.github.io/Desktop/#)
 
 <!-- GETTING STARTED -->
 
