@@ -156,9 +156,11 @@ const projectInfo = [
 
 // project seccion dynamic Html
 
+// project seccion dynamic Html
+
 const showModal = (projectInfo) => {
-  const myMod = document.getElementById('myModal');
-  myMod.style.display = 'flex';
+  const myModal = document.getElementById('myMOdal');
+  myModal.style.display = 'flex';
   const modalBody = `<div class="modal-content">
   <button id="closemodalX" class="close-modal close">&times</button>
   <h3 class="project-title-modal">${projectInfo.name}</h3>
@@ -177,8 +179,12 @@ const showModal = (projectInfo) => {
           <img class="iconModal" src="./images/Vector (8).png">
       </button>
   </div>
-  </div>`;
-  myMod.innerHTML = modalBody;
+  <div class="next-prev-proj">
+      <button class="prev-btn"> &larr; Previous project</button>
+      <button class="prev-btn">Next Project &rarr;</button>
+  </div>
+</div>`;
+  myModal.innerHTML = modalBody;
 };
 
 const gall = document.querySelector('.galery');
@@ -211,15 +217,14 @@ projectInfo.forEach((project, index) => {
     </button>
 </div>
 </article>`;
-
-soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
-gall.appendChild(soloArticle);
-const button = document.getElementById(`btn${projectId}`);
-button.addEventListener('click', () => {
-  showModal(project);
-  const closemodalX = document.getElementById('closemodalX');
-  closemodalX.addEventListener('click', () => {
-    closeModal();
+  soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
+  gall.appendChild(soloArticle);
+  const button = document.getElementById(`btn${projectId}`);
+  button.addEventListener('click', () => {
+    showModal(project);
+    const closemodalX = document.getElementById('closemodalX');
+    closemodalX.addEventListener('click', () => {
+      closeModal();
+    });
   });
-});
 });
