@@ -123,7 +123,7 @@ h3 {
   color: #fff;
 }
 
-.projectUl {
+.pUl {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -135,7 +135,7 @@ h3 {
   width: 314px;
 }
 
-.projectLi {
+.pLi {
   font-size: 10.33px;
   background-color: #98dede;
   float: left;
